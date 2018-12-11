@@ -8,12 +8,8 @@ import com.sun.imageio.stream.StreamCloser.CloseAction;
 public class App{
     public static void main (String[] args){
         int size = 12;
-        //String crust = "thin";
-        Scanner scanner;
-        scanner = new Scanner(System.in); 
-        String crust = scanner.nextLine();
-       
-        String[] toppings = {"Cheese", "Tomato Suace"};
+        String crust = "thin";
+        
         Pizza cheesePizza; //Pizza is now a datatype a declaration of class pizza. only in stack
         cheesePizza = new Pizza(size, crust, "Cheese", " Tomato Sauce");// now in the heap
         Pizza peperoniPizza;
